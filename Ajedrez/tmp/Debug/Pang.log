@@ -1,2 +1,12 @@
 ﻿  Ajedrez.cpp
-  Pang.vcxproj -> C:\Users\kikem\Documents\GitHub\JaqueMateConTomate\Ajedrez\bin\Ajedrez.exe
+  Alfil.cpp
+  Caballo.cpp
+  Peon.cpp
+  Pieza.cpp
+  Reina.cpp
+  Rey.cpp
+  Tablero.cpp
+  Torre.cpp
+  Vector2D.cpp
+  Generando código...
+  Pang.vcxproj -> C:\Users\Carlos\Documents\GitHub\JaqueMateconTomate\Ajedrez\bin\Ajedrez.exe
