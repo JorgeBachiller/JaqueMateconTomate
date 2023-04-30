@@ -19,13 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Pang.cpp" />
+    <ClCompile Include="src\Ajedrez.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{e575fade-b6eb-4154-a1ed-8067a12eae98}</ProjectGuid>
-    <RootNamespace>Ajedrez</RootNamespace>
+    <RootNamespace>Pang</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>Ajedrez</ProjectName>
   </PropertyGroup>
