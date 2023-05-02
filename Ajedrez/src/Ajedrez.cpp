@@ -1,4 +1,7 @@
 #include "freeglut.h"
+#include "Tablero.h"
+
+Tablero tablero;
 
 //los callback, funciones que seran llamadas automaticamente por la glut
 //cuando sucedan eventos
@@ -32,7 +35,7 @@ int main(int argc, char* argv[])
 	glutSpecialFunc(onSpecialKeyboardDown); //gestion de los cursores 
 
 	//Inicializacion de la escena 
-
+	tablero.inicializa();
 	//pasarle el control a GLUT,que llamara a los callbacks
 	glutMainLoop();
 
@@ -48,6 +51,7 @@ void OnDraw(void)
 	glMatrixMode(GL_MODELVIEW);
 	glLoadIdentity();
 
+	tablero.dibuja();
 
 	//no borrar esta linea ni poner nada despues
 	glutSwapBuffers();

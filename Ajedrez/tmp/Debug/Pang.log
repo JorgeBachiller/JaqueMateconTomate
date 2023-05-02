@@ -1,12 +1,6 @@
 ﻿  Ajedrez.cpp
-  Alfil.cpp
-  Caballo.cpp
+  ListaPiezas.cpp
   Peon.cpp
-  Pieza.cpp
-  Reina.cpp
-  Rey.cpp
   Tablero.cpp
-  Torre.cpp
-  Vector2D.cpp
   Generando código...
-  Pang.vcxproj -> C:\Users\Carlos\Documents\GitHub\JaqueMateconTomate\Ajedrez\bin\Ajedrez.exe
+  Pang.vcxproj -> C:\Users\Alejandro\Documents\GitHub\JaqueMateconTomate\Ajedrez\bin\Ajedrez.exe
