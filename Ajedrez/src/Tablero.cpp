@@ -1,6 +1,6 @@
 #include "Tablero.h"
-
 #include "ETSIDI.h"
+
 
 void Tablero::dibuja()
 {
@@ -21,7 +21,6 @@ void Tablero::dibuja()
     glEnd();
     glEnable(GL_LIGHTING);
     glDisable(GL_TEXTURE_2D);
-
 }
 
 void Tablero::setPos(float x1, float y1, float x2, float y2) {

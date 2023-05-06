@@ -1,6 +1,4 @@
-﻿  Ajedrez.cpp
-  ListaPiezas.cpp
-  Peon.cpp
-  Tablero.cpp
+﻿  Tablero.cpp
+  Torre.cpp
   Generando código...
   Pang.vcxproj -> C:\Users\Alejandro\Documents\GitHub\JaqueMateconTomate\Ajedrez\bin\Ajedrez.exe

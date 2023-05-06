@@ -11,9 +11,8 @@
 
 
 class Tablero {
+	
 
-	Reina reina_n, reina_b;
-	Rey rey_n, rey_b;
 private:
 	unsigned char rojo, verde, azul;
 

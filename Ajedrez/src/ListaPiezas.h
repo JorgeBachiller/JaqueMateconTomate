@@ -7,5 +7,6 @@
 #include "Torre.h"
 class ListaPiezas
 {
+
 };
 

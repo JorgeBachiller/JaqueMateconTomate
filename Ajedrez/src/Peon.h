@@ -3,13 +3,7 @@
 #include "freeglut.h"
 
 class Peon :public Pieza {
-
+	Peon(int columna, int fila, char color, char identificador) :Pieza(columna, fila, color, identificador) {}
+	void dibuja(int* pieza_seleccionadaX, int* pieza_seleccionadaY);
 	
-
-	Peon(char color, int fila, int columna);
-
-	bool esMovimientoValido(int nuevaFila, int nuevaColumna) const;
-
-	void mover(int nuevaFila, int nuevaColumna);
-
 };
