@@ -50,21 +50,6 @@ void Pantalla_inicio::asign_tecla(unsigned char t)
     tecla = t;
 }
 
-void Pantalla_inicio::avanza(unsigned char t)
-{
-    cin >> t;
-    if (t == (char)13)
-    {
-        ExitProcess;
-    }
-    else
-    {
-        while (t != (char)13)
-        {
-            cin >> t;
-        }
-        ExitProcess;
-    }
-}
+
 
 
